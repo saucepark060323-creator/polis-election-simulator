@@ -26,7 +26,15 @@
 @media(max-width:800px){.shell{display:block}.sidebar{height:auto;width:100%;position:relative;padding:12px 12px 6px;display:block;border-right:0;border-bottom:1px solid var(--line)}.brand{margin:0 7px 12px}.brand-logo{width:34px;height:34px;font-size:22px}.brand strong{font-size:17px}.brand small{font-size:8px}.sidebar-heading,.sidebar-bottom{display:none}#nav{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding-bottom:6px}.nav-link{width:auto;white-space:nowrap;padding:9px 10px;font-size:11px;margin:0}.nav-symbol{font-size:14px;width:auto}.topbar{position:relative;height:64px;padding:0 18px}.eyebrow{display:none}.top-divider{display:none}.top-actions{gap:5px}.btn-small,.topbar .btn{padding:8px 10px}.hide-small{display:none}#view{padding:23px 16px 42px}.page-head{align-items:start;flex-direction:column}.hero{padding:22px}.hero-button{display:none}.kpis{grid-template-columns:repeat(2,1fr)}.section-grid{grid-template-columns:1fr}.three-col{grid-template-columns:1fr}.preset-list{grid-template-columns:repeat(2,1fr)}.form-grid.three,.form-grid.four{grid-template-columns:repeat(2,minmax(0,1fr))}.footer{flex-direction:column;padding:15px 18px}.hemicycle-wrap{padding:0 3px}}
 @media(max-width:540px){.preset-list{grid-template-columns:1fr}.party-editor{grid-template-columns:38px 1fr 1fr 32px;gap:7px}.party-editor .field:nth-child(3){grid-column:2}.party-editor .field:nth-child(4){grid-column:3}.party-editor .field:nth-child(5){grid-column:2 / span 2}.party-editor .field:last-child{grid-column:4;grid-row:1}.region-editor{grid-template-columns:1fr 1fr 32px}.region-editor .field:first-child{grid-column:1 / span 2}.region-editor .field:nth-child(4){grid-column:1 / span 2}.region-editor .field:last-child{grid-column:3;grid-row:1}.choices{grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}.choice{font-size:10px;padding:10px 0}.hero-content h2{font-size:21px}.hero-tags{margin-top:12px}.kpi{padding:12px}.kpi-value{font-size:24px}.panel-header{padding:16px 15px 12px}.panel-body{padding:4px 15px 16px}.panel-spaced{padding:17px}.form-grid{grid-template-columns:1fr}.page-head h1{font-size:29px}.footer{font-size:9px}.info-lines{grid-template-columns:1fr}.topbar{padding:0 11px}.top-left{font-size:11px}.top-actions .btn{font-size:10px;padding:8px 7px}}
 
-  </style>
+  
+/* POLIS v2: 홈 화면 간소화 및 두 가지 새로운 플레이 모드 */
+#view{max-width:1220px;margin-inline:auto}.topbar .top-left .eyebrow{font-size:10px}.nav-link{border-radius:11px}.simple-head{margin:1px 0 22px}.simple-head h1{font-size:clamp(29px,3.3vw,43px);margin:9px 0 8px;letter-spacing:-1.2px}.simple-head p{color:var(--muted);margin:0;font-size:12px}.mode-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:18px}.mode-card{display:flex;flex-direction:column;align-items:flex-start;position:relative;border:1px solid #33506d;background:#172b43;color:var(--text);padding:22px 19px;border-radius:16px;cursor:pointer;text-align:left;min-height:162px;transition:background .2s,transform .2s,border-color .2s}.mode-card:hover{background:#223a54;border-color:#8ac9f5;transform:translateY(-2px)}.mode-card b{font-size:19px;letter-spacing:-.4px}.mode-card small{color:#a2bbd2;font-size:12px;line-height:1.6;margin-top:7px}.mode-symbol{font-size:25px;color:#8ac9f5;margin-bottom:18px}.mode-arrow{position:absolute;right:17px;top:17px;color:#93b5d0;font-size:18px}.quick-strip{display:flex;justify-content:space-between;align-items:center;gap:13px;border:1px solid var(--line);background:#121f31;border-radius:12px;padding:12px 15px;margin-bottom:18px}.quick-strip>div:first-child{display:flex;gap:14px;align-items:center;font-size:12px}.quick-strip>div:first-child span{color:var(--muted)}.quick-strip-actions{display:flex;gap:8px;flex-wrap:wrap}.simple-results{margin-bottom:17px}.simple-results-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.simple-results-head h2{font-size:21px;margin:9px 0 6px}.simple-results-head p{font-size:12px;color:var(--muted)}.simple-results .results-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 25px;margin-top:15px}.compact-support{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 30px;margin:25px 0 10px}.compact-alert{padding:15px 18px;margin-bottom:16px;border-radius:11px;border:1px solid #41688a;background:#1c3449;font-size:12px;display:flex;align-items:center;gap:13px;flex-wrap:wrap}.compact-alert span{color:#b5cce2}.compact-alert a,.hist-source{font-size:11px;color:#91cdf4;text-decoration:none}.compact-alert a:hover,.hist-source:hover{text-decoration:underline}.game-disclaimer{font-size:11px;color:var(--muted);line-height:1.6;margin:16px 0}.advanced-box{border:1px solid var(--line);border-radius:12px;padding:0 16px;background:#132338;margin-top:16px}.advanced-box summary{cursor:pointer;list-style:none;padding:17px 3px;font-size:13px;font-weight:700;display:flex;justify-content:space-between}.advanced-box summary::-webkit-details-marker{display:none}.advanced-buttons{display:flex;flex-wrap:wrap;gap:10px;padding:0 0 17px}.historic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.hist-card{border:1px solid #33465c;border-radius:15px;background:#142337;padding:20px;display:flex;flex-direction:column;gap:10px}.hist-card.is-current{border-color:#8ac8f6}.hist-card-top{display:flex;justify-content:space-between;align-items:center;gap:15px}.hist-year{font-size:12px;letter-spacing:1px;font-weight:800;color:#94cef7}.hist-country{font-size:11px;color:#a0b6cb}.hist-card h3{font-size:20px;margin:0;letter-spacing:-.4px}.hist-card p{font-size:12px;color:var(--muted);margin:0}.hist-stats{display:flex;gap:8px;flex-wrap:wrap;margin-top:5px}.hist-stats span{background:#21364b;color:#bdd0e0;padding:5px 9px;font-size:11px;border-radius:8px}.hist-seatline{display:flex;height:12px;overflow:hidden;border-radius:12px;margin:7px 0}.hist-seatline span{display:block;min-width:1px}.hist-card-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto}.hist-card-footer .btn{font-size:12px}.hist-bars{display:flex;flex-direction:column;gap:9px}.hist-row{display:grid;grid-template-columns:10px minmax(100px,1fr) 2fr 52px;gap:8px;align-items:center;font-size:12px}.hist-dot{width:10px;height:10px;display:inline-block;border-radius:100%;flex:0 0 auto}.hist-track{height:9px;border-radius:10px;overflow:hidden;background:#263950}.hist-track i{height:100%;display:block;border-radius:10px}.hist-row b{text-align:right}.hist-compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:20px}.hist-compare-item{background:#1b2c42;padding:14px;border-radius:10px}.hist-comp-name{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700}.hist-comp-numbers{display:flex;justify-content:space-between;font-size:11px;color:#d8eafa;margin:9px 0}.hist-dual{display:grid;gap:5px}.hist-dual span{height:6px;min-width:2px;border-radius:8px}.hist-compare .hist-source{display:inline-block;margin-top:17px}.sb-summary{background:#14273c;border:1px solid var(--line);border-radius:12px;padding:12px 15px;margin-bottom:18px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}.sb-summary b{color:var(--text)}.sb-summary .btn{margin-left:auto}.sb-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.sb-grid .panel{min-width:0}.sb-card-heading{display:flex;gap:13px;margin-bottom:18px}.sb-card-heading h3{margin:2px 0 5px;font-size:18px}.sb-card-heading p{margin:0;color:var(--muted);font-size:12px;line-height:1.5}.sb-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:11px;background:#24415b;color:#99d2f7;font-size:24px;flex:0 0 auto}.sb-form{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:17px}.sb-form .field{min-width:0}.sb-grid .btn{width:100%}.sb-cycle{display:flex;justify-content:space-between;align-items:center;gap:20px;margin:17px 0}.sb-cycle h3{font-size:20px;margin:8px 0}.sb-cycle p{color:var(--muted);font-size:12px;margin:0}.sb-history{margin-top:18px}.sb-history .timeline{margin-top:12px}
+@media(max-width:1100px){.mode-grid{gap:9px}.mode-card{padding:17px 14px;min-height:153px}.mode-card b{font-size:16px}.mode-card small{font-size:11px}.historic-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:800px){.mode-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.mode-card{min-height:125px}.mode-symbol{margin-bottom:9px}.simple-results-head{align-items:flex-start}.quick-strip{align-items:flex-start;flex-direction:column}.quick-strip-actions{width:100%}.quick-strip-actions .btn{flex:1}.top-actions [data-action="reset-preset"],.top-actions [data-action="export"]{display:none}}
+@media(max-width:620px){.mode-grid{grid-template-columns:1fr;gap:10px}.mode-card{min-height:95px;padding:15px 15px 15px 63px;justify-content:center}.mode-card b{font-size:16px}.mode-card small{font-size:11px;margin-top:3px}.mode-symbol{position:absolute;left:18px;top:24px}.mode-arrow{top:36px}.historic-grid,.sb-grid,.hist-compare-grid,.simple-results .results-list,.compact-support{grid-template-columns:1fr}.hist-card{padding:18px}.sb-form{grid-template-columns:1fr 1fr}.sb-cycle{align-items:flex-start;flex-direction:column}.sb-cycle .btn{width:100%}.simple-head{margin-bottom:16px}.simple-head h1{font-size:29px}.quick-strip-actions .btn{padding:10px 6px;font-size:11px}.simple-results-head{flex-direction:column}.hist-card h3{font-size:18px}}
+@media(max-width:390px){.sb-form{grid-template-columns:1fr}.hist-card-footer{flex-wrap:wrap}.hist-card-footer .btn{width:100%}}
+
+</style>
 
 </head>
 <body>
@@ -488,6 +496,128 @@ dom('import-file').addEventListener('change',async e=>{
  }catch(err){toast(`JSON 불러오기 실패: ${err.message||'파일을 확인하세요.'}`);}e.target.value='';
 });
 window.addEventListener('storage',e=>{if(e.key===STORE_KEY&&e.newValue){try{state=normalizeState(JSON.parse(e.newValue));render();toast('다른 탭에서 변경된 설정을 동기화했습니다.');}catch(err){}}});
+render();
+
+  </script>
+  <script>
+/* POLIS v2 – 역사 시나리오와 정치 샌드박스 확장 (2026). */
+'use strict';
+const HISTORIC = [
+  {id:'kr1988',country:'kr',year:1988,title:'대한민국 제13대 총선',desc:'1988년 국회의원 299석 구성',seats:299,local:224,system:'mixed',turnout:75.8,source:'https://db.history.go.kr/id/tcct_1988_04_26_0010',sourceLabel:'국사편찬위원회 한국사DB',results:[['민주정의당',125,'#d65358',48],['평화민주당',70,'#4e93d5',-46],['통일민주당',59,'#5dbda1',-17],['신민주공화당',35,'#e6ad6e',34],['한겨레민주당',1,'#a38bd2',-76],['무소속',9,'#8f9eac',0]]},
+  {id:'kr2004',country:'kr',year:2004,title:'대한민국 제17대 총선',desc:'열린우리당·한나라당 등 299석의 선거',seats:299,local:243,system:'mixed',turnout:60.6,source:'https://db.history.go.kr/id/tcct_2004_04_15_0010',sourceLabel:'국사편찬위원회 한국사DB',results:[['열린우리당',152,'#e1ad4c',-38],['한나라당',121,'#4b86c6',45],['민주노동당',10,'#e15a73',-83],['새천년민주당',9,'#65ae98',-30],['자유민주연합',4,'#9f79bd',38],['무소속',2,'#9ca3ad',0],['국민통합21',1,'#bd9865',10]]},
+  {id:'kr2016',country:'kr',year:2016,title:'대한민국 제20대 총선',desc:'더불어민주당·새누리당·국민의당 등의 300석',seats:300,local:253,system:'mixed',turnout:58,source:'https://nationalatlas.ngii.go.kr/pages/page_1846.php',sourceLabel:'국토지리정보원 국가지도집',results:[['더불어민주당',123,'#3e86d2',-42],['새누리당',122,'#dd5a65',51],['국민의당',38,'#61bc96',5],['정의당',6,'#dcb45b',-72],['무소속',11,'#8b9aa7',0]]},
+  {id:'kr2024',country:'kr',year:2024,title:'대한민국 제22대 총선',desc:'2024년 선거 당시 정당·위성정당 결과를 통합 표시',seats:300,local:254,system:'mixed',turnout:67,source:'https://data.ipu.org/parliament/KR/KR-LC01/election/KR-LC01-E20240410/',sourceLabel:'국제의회연맹(IPU)·선관위',results:[['더불어민주당·민주연합',175,'#3f85d7',-45],['국민의힘·국민의미래',108,'#e15b67',50],['조국혁신당',12,'#7373db',-63],['개혁신당',3,'#eaa264',19],['새로운미래',1,'#65bcb4',-18],['진보당',1,'#bf6db1',-83]]},
+  {id:'uk2024',country:'uk',year:2024,title:'영국 2024 총선',desc:'650석 하원, 소선거구 승자독식',seats:650,local:650,system:'fptp',turnout:59.7,source:'https://commonslibrary.parliament.uk/research-briefings/cbp-10009/',sourceLabel:'영국 하원 도서관',results:[['노동당',411,'#e34c5e',-40],['보수당',121,'#5382ce',49],['자유민주당',72,'#eeb267',-12],['스코틀랜드 국민당',9,'#e0cc72',-22],['개혁 UK',5,'#4cc0b4',72],['민주연합당(DUP)',5,'#c47991',48],['녹색당',4,'#72bc88',-75],['기타·무소속',23,'#8899b3',0]]},
+  {id:'de2021',country:'de',year:2021,title:'독일 2021 연방총선',desc:'2021년 9월 최초 확정 결과 기준 736석',seats:736,local:299,system:'mmp',turnout:76.6,source:'https://www.bundeswahlleiterin.de/info/presse/mitteilungen/bundestagswahl-2021/52_21_endgueltiges-ergebnis.html',sourceLabel:'독일 연방선거관리청(2021 확정)',results:[['SPD',206,'#d9525e',-36],['CDU',152,'#7d8c9a',38],['CSU',45,'#4b79ac',42],['녹색당',118,'#63b881',-61],['FDP',92,'#e6b761',24],['AfD',83,'#77afd8',74],['좌파당',39,'#aa75bc',-82],['SSW',1,'#9ca6af',-16]]}
+];
+const originalDashboard=renderDashboard;
+const originalRender=render;
+NAV.splice(0,NAV.length,
+ ['dashboard','⌂','홈'],['history','◷','역대 선거'],['sandbox','▧','정치 샌드박스'],
+ ['policy','◇','공약'],['campaign','⚑','선거운동'],['coalition','♧','의회']);
+let sb={mergeA:'',mergeB:'',splitA:'',splitName:'',splitRatio:25,splitLean:0,shiftA:'',shiftB:'',shiftAmount:3,eventParty:'',eventImpact:10};
+const historicById=id=>HISTORIC.find(h=>h.id===id);
+function safeName(s){return escapeHTML(String(s||''));}
+function recordSandbox(action,details){
+ state.sandboxChronicle=Array.isArray(state.sandboxChronicle)?state.sandboxChronicle:[];
+ state.sandboxChronicle.unshift({year:state.year,action,details});state.sandboxChronicle=state.sandboxChronicle.slice(0,40);
+ state.logs.unshift({week:state.turn,title:action,desc:details});state.logs=state.logs.slice(0,25);
+}
+function historicPalette(h){return h.results.map((p,i)=>({id:h.id+'-'+i,name:p[0],color:p[2],ideology:p[3],support:Math.max(.5,p[1]/h.seats*100)}));}
+function loadHistoric(id){
+ const h=historicById(id);if(!h)return;
+ state=makeState(h.country);state.historicId=h.id;state.year=h.year;state.config.seats=h.seats;state.config.localSeats=h.local;
+ state.config.system=h.system;state.config.turnout=h.turnout;state.config.seed=h.year;state.parties=historicPalette(h);
+ state.player=state.parties[0].id;state.positions={};state.logs=[{week:0,title:'역사 선거 배경 선택',desc:`${h.title}을 가상 모델에 불러왔습니다. 실제 당별 득표율과 지역별 의석은 별도로 재현하지 않습니다.`}];
+ state.sandboxChronicle=[];focusRegion=state.regions[0].id;page='dashboard';render();window.scrollTo(0,0);toast(`${h.year}년 시나리오를 불러왔습니다.`);
+}
+function actualBars(h){return `<div class="hist-bars">${h.results.map(p=>`<div class="hist-row"><span class="hist-dot" style="background:${p[2]}"></span><span>${safeName(p[0])}</span><div class="hist-track"><i style="width:${(p[1]/h.seats*100).toFixed(2)}%;background:${p[2]}"></i></div><b>${p[1]}석</b></div>`).join('')}</div>`;}
+function compareHistory(h){
+ if(!state.result)return '';
+ return `<section class="panel panel-spaced hist-compare"><h3 class="panel-title">실제 선거와 가상 개표 비교</h3><p class="form-intro">실제 기록은 왼쪽, 직접 조정한 POLIS 시뮬레이션은 오른쪽입니다. 게임은 당시 득표율·선거구와 법률을 재현하지 않으므로 정확히 일치하지 않습니다.</p><div class="hist-compare-grid">${h.results.map((p,i)=>{const simulated=state.result.parties.find(q=>q.id===h.id+'-'+i)?.seats||0;return `<div class="hist-compare-item"><div class="hist-comp-name"><i class="hist-dot" style="background:${p[2]}"></i>${safeName(p[0])}</div><div class="hist-comp-numbers"><span>실제 ${p[1]}석</span><span>가상 ${simulated}석</span></div><div class="hist-dual"><span style="width:${p[1]/h.seats*100}%;background:${p[2]}"></span><span style="width:${simulated/state.config.seats*100}%;background:#90d1f4"></span></div></div>`;}).join('')}</div><a class="hist-source" href="${h.source}" target="_blank" rel="noopener noreferrer">실제 선거 결과 출처 ↗</a></section>`;
+}
+renderDashboard=function(){
+ const r=state.result,h=historicById(state.historicId),leader=resultSummary();
+ return `<div class="simple-head"><div class="section-eyebrow">POLIS / ELECTION LAB</div><h1>${safeName(state.flag)} ${safeName(state.name)}</h1><p>${state.year}년 · ${safeName(SYSTEMS[state.config.system])} · ${state.config.seats}석 ${h?'· 역사 기반 가상 시나리오':''}</p></div>
+ <div class="mode-grid">
+ <button class="mode-card" data-page="world"><span class="mode-symbol">◎</span><b>빠른 시작</b><small>국가 선택 · 새로운 게임</small><span class="mode-arrow">↗</span></button>
+ <button class="mode-card" data-page="sandbox"><span class="mode-symbol">▧</span><b>정치 샌드박스</b><small>합당 · 분당 · 지지 이동 · 다음 총선</small><span class="mode-arrow">↗</span></button>
+ <button class="mode-card" data-page="history"><span class="mode-symbol">◷</span><b>역대 선거</b><small>실제 의석 기록과 다른 역사 실험</small><span class="mode-arrow">↗</span></button>
+ </div>
+ <div class="quick-strip"><div><b>${state.parties.length}개 정당</b><span>${state.turn}/${MAX_TURNS}턴 진행</span></div><div class="quick-strip-actions">${btn('공약 설정','go-policy','btn-subtle')}${btn('선거운동','go-campaign','btn-subtle')}${btn('▶ 개표하기','run','btn-primary')}</div></div>
+ ${h?`<div class="compact-alert"><b>역사 시나리오: ${safeName(h.title)}</b><span>정당별 초기 지지 강도는 실제 득표율이 아닌 의석 비중을 이용한 게임용 가정입니다.</span><a href="${h.source}" target="_blank" rel="noopener noreferrer">원본 결과 확인 ↗</a></div>`:''}
+ <section class="panel panel-spaced simple-results"><div class="simple-results-head"><div><div class="overline">${r?'ELECTION RESULT':'READY TO SIMULATE'}</div><h2>${r?`가상 개표 결과 · ${r.totalSeats}석`:'선거를 시작할 준비가 되었어요'}</h2><p>${r?`${state.year}년 ${safeName(state.name)} · 현재 가상 시나리오`: '공약·정당을 원하는 대로 바꾸거나, 바로 개표해 볼 수 있습니다.'}</p></div>${r?btn('연립정부 구성 ↗','go-coalition','btn-subtle'):btn('첫 개표 시작 →','run','btn-primary')}</div>
+ ${r?`<div class="hemicycle-wrap">${parliamentSvg(r)}</div><div class="results-list">${renderPartyResults(r)}</div>`:`<div class="compact-support">${renderBaseSupport()}</div>`}</section>
+ ${h?compareHistory(h):''}
+ <details class="advanced-box"><summary>고급 설정 및 데이터 관리 <span>▾</span></summary><div class="advanced-buttons">${btn('정당 편집','go-parties','btn-subtle')}${btn('지역구 편집','go-regions','btn-subtle')}${btn('선거제도·국가 설정','go-settings','btn-subtle')}${btn('JSON 저장','export','btn-subtle')}${btn('JSON 불러오기','import','btn-subtle')}</div></details>
+ <p class="game-disclaimer">이 게임은 역사 선거 결과를 예측하거나 복원하지 않는 교육·오락용 가상 모델입니다.</p>`;
+};
+function renderHistory(){
+ const selected=historicById(state.historicId);
+ return `${pageHead('HISTORY / 역대 총선','역대 선거 다시 해보기','선거 연도를 고르고 그때의 정당 구성으로 새 가상 시나리오를 시작하세요. 실제 의석과 시뮬레이션 결과는 구분해 표시합니다.')}
+ <div class="historic-grid">${HISTORIC.map(h=>`<article class="hist-card ${selected?.id===h.id?'is-current':''}"><div class="hist-card-top"><span class="hist-year">${h.year}</span><span class="hist-country">${safeName(PRESETS[h.country].flag)} ${safeName(PRESETS[h.country].name)}</span></div><h3>${safeName(h.title)}</h3><p>${safeName(h.desc)}</p><div class="hist-stats"><span>총 ${h.seats}석</span><span>${safeName(SYSTEMS[h.system])}</span></div><div class="hist-seatline">${h.results.map(p=>`<span style="width:${p[1]/h.seats*100}%;background:${p[2]}" title="${safeName(p[0])}: ${p[1]}석"></span>`).join('')}</div><div class="hist-card-footer"><a href="${h.source}" target="_blank" rel="noopener noreferrer" class="hist-source" >실제 결과 자료 ↗</a><button class="btn btn-primary" data-hist="${h.id}">${selected?.id===h.id?'시나리오 다시 시작':'이 선거로 플레이 →'}</button></div></article>`).join('')}</div>
+ <section class="panel panel-spaced" style="margin-top:18px"><h3 class="panel-title">실제 기록과 게임 설정의 차이</h3><p class="form-intro">실제 선거: 발표된 정당별 의석 숫자만 역사 자료로 사용합니다. 가상 선거: 역사적 의석 비율을 초기 지지 강도의 출발점으로 삼고, 지역 성향·정책·선거운동은 독립적인 가상 규칙으로 계산합니다. 당시 선거 법규와 각 지역구 실제 득표를 정확히 재현하지 않습니다.</p></section>`;
+}
+function sbOptions(selected,excluded=''){return state.parties.filter(p=>p.id!==excluded).map(p=>`<option value="${safeName(p.id)}" ${p.id===selected?'selected':''}>${safeName(p.name)}</option>`).join('');}
+function sbSelect(key,value,excluded=''){return `<select class="select" data-sb="${key}" aria-label="정당 선택">${sbOptions(value,excluded)}</select>`;}
+function renderSandbox(){
+ const ps=state.parties;if(!ps.some(p=>p.id===sb.mergeA))sb.mergeA=ps[0].id;
+ if(!ps.some(p=>p.id===sb.mergeB)||sb.mergeA===sb.mergeB)sb.mergeB=ps.find(p=>p.id!==sb.mergeA)?.id||ps[0].id;
+ for(const [key] of [['splitA'],['shiftA'],['shiftB'],['eventParty']])if(!ps.some(p=>p.id===sb[key]))sb[key]=ps[key==='shiftB'?1:0]?.id||ps[0].id;
+ return `${pageHead('SANDBOX / 정치 실험실','정치 구도를 직접 바꿔보세요','정당 합당·분당, 지지 이동, 정치 이벤트와 다음 선거를 원하는 대로 실험할 수 있습니다.')}
+ <div class="sb-summary"><span><b>${safeName(state.name)}</b> · ${state.year}년</span><span>${ps.length}개 정당</span><span>총선 ${state.electionCount}회 개표</span>${btn('▶ 지금 개표','run','btn-primary')}</div>
+ <div class="sb-grid">
+ <section class="panel panel-spaced"><div class="sb-card-heading"><span class="sb-icon">↗</span><div><h3>정당 합당</h3><p>두 정당을 하나로 합칩니다.</p></div></div><div class="sb-form">${field('남길 정당',sbSelect('mergeA',sb.mergeA))}${field('합류할 정당',sbSelect('mergeB',sb.mergeB))}</div>${btn('두 정당 합당하기','sb-merge','btn-primary',ps.length<=2?'disabled':'')}</section>
+ <section class="panel panel-spaced"><div class="sb-card-heading"><span class="sb-icon">⤴</span><div><h3>신당 분당</h3><p>기존 정당의 일부 지지 기반으로 새로운 정당을 만듭니다.</p></div></div><div class="sb-form">${field('분당할 정당',sbSelect('splitA',sb.splitA))}${field('신당 이름',`<input class="input" data-sb="splitName" value="${safeName(sb.splitName)}" placeholder="예: 미래개혁당" maxlength="50">`)}${field('기존 지지 기반 중 분리 비중 (%)',`<input class="input" data-sb="splitRatio" value="${sb.splitRatio}" type="number" min="5" max="60">`)}${field('신당 이념 (-100 ~ 100)',`<input class="input" data-sb="splitLean" value="${sb.splitLean}" type="number" min="-100" max="100">`)}</div>${btn('새 정당 만들기','sb-split','btn-primary',ps.length>=22?'disabled':'')}</section>
+ <section class="panel panel-spaced"><div class="sb-card-heading"><span class="sb-icon">⇄</span><div><h3>지지 기반 이동</h3><p>두 정당 사이에 가상 지지 강도를 이동시킵니다.</p></div></div><div class="sb-form">${field('이동할 정당',sbSelect('shiftA',sb.shiftA))}${field('받는 정당',sbSelect('shiftB',sb.shiftB))}${field('이동할 강도',`<input class="input" data-sb="shiftAmount" value="${sb.shiftAmount}" type="number" min="0.1" max="20" step="0.5">`)}</div>${btn('지지 기반 이동','sb-shift','btn-primary')}</section>
+ <section class="panel panel-spaced"><div class="sb-card-heading"><span class="sb-icon">✳</span><div><h3>정치 이벤트</h3><p>선택한 정당의 선거운동 경쟁력에 가중치를 더하거나 뺍니다.</p></div></div><div class="sb-form">${field('대상 정당',sbSelect('eventParty',sb.eventParty))}${field('경쟁력 변화 (-30 ~ +30)',`<input class="input" data-sb="eventImpact" value="${sb.eventImpact}" type="number" min="-30" max="30">`)}</div>${btn('가상 이벤트 적용','sb-event','btn-primary')}</section>
+ </div>
+ <section class="panel panel-spaced sb-cycle"><div><div class="overline">NEXT ELECTION</div><h3>${state.year+4}년 총선으로 넘어가기</h3><p>정당 구성은 유지하고 선거운동 횟수·예산을 초기화합니다. 기존 개표 기록은 남습니다.</p></div>${btn('4년 후 다음 총선','sb-next','btn-primary')}</section>
+ <details class="advanced-box"><summary>정당·지역구·제도 상세 편집 <span>▾</span></summary><div class="advanced-buttons">${btn('정당 직접 편집','go-parties','btn-subtle')}${btn('지역구 편집','go-regions','btn-subtle')}${btn('국가·선거제도 변경','go-settings','btn-subtle')}${btn('가상국가 새로 만들기','new-country','btn-subtle')}</div></details>
+ <section class="panel panel-spaced sb-history"><h3 class="panel-title">정치 변화 기록</h3>${(state.sandboxChronicle||[]).length?`<div class="timeline">${state.sandboxChronicle.slice(0,16).map(x=>`<div class="timeline-item"><strong>${x.year}년 · ${safeName(x.action)}</strong>${safeName(x.details)}</div>`).join('')}</div>`:'<p class="form-intro">아직 진행한 정치 변화가 없어요. 위 기능을 사용해 보세요.</p>'}</section>`;
+}
+function applySandboxAction(action){
+ const get=id=>state.parties.find(p=>p.id===id),p=state.parties;
+ if(action==='sb-merge'){
+  const a=get(sb.mergeA),b=get(sb.mergeB);if(!a||!b||a.id===b.id)return toast('서로 다른 두 정당을 선택해 주세요.');
+  if(p.length<=2)return toast('합당 후에도 최소 2개 정당이 필요합니다.');
+  const total=a.support+b.support;a.ideology=Math.round((a.ideology*a.support+b.ideology*b.support)/total);a.support=total;
+  state.campaignBoost[a.id]=clamp(((state.campaignBoost[a.id]||0)+(state.campaignBoost[b.id]||0))/2,-40,70);
+  delete state.campaignBoost[b.id];state.parties=p.filter(q=>q.id!==b.id);
+  for(const key of Object.keys(state.regionBoost)){if(key.startsWith(b.id+'@@'))delete state.regionBoost[key];}
+  if(state.player===b.id){state.player=a.id;state.positions={};}
+  recordSandbox('정당 합당',`${b.name}이(가) ${a.name}에 합류했습니다.`);
+ }else if(action==='sb-split'){
+  const a=get(sb.splitA);if(!a)return toast('분당할 정당을 선택하세요.');if(p.length>=22)return toast('정당은 최대 22개까지입니다.');
+  const name=String(sb.splitName||'').trim();if(!name)return toast('신당 이름을 입력해 주세요.');
+  const ratio=clamp(sb.splitRatio,5,60)/100;let share=a.support*ratio;
+  if(a.support-share<.1||share<.1)return toast('나눌 수 있는 최소 지지 강도가 부족합니다.');
+  a.support-=share;const newParty=P(slug(),name,palette[p.length%palette.length],clamp(sb.splitLean,-100,100),share);p.push(newParty);sb.splitName='';
+  recordSandbox('신당 분당',`${a.name}에서 ${name}이(가) 분당해 기존 지지 강도의 ${Math.round(ratio*100)}%를 넘겨받았습니다.`);
+ }else if(action==='sb-shift'){
+  const a=get(sb.shiftA),b=get(sb.shiftB);if(!a||!b||a.id===b.id)return toast('서로 다른 정당을 선택하세요.');
+  const x=Math.min(clamp(sb.shiftAmount,.1,20),Math.max(0,a.support-.1));if(x<.1)return toast('이동 가능한 지지 강도가 부족합니다.');
+  a.support-=x;b.support+=x;recordSandbox('지지 기반 이동',`${a.name}에서 ${b.name}(으)로 가상 지지 강도 ${fixed(x)}를 이동했습니다.`);
+ }else if(action==='sb-event'){
+  const a=get(sb.eventParty);if(!a)return toast('이벤트 정당을 선택해 주세요.');const v=clamp(sb.eventImpact,-30,30);
+  addCampaignBoost(a.id,v);recordSandbox('정치 이벤트',`${a.name}의 전국 선거 경쟁력에 ${v>=0?'+':''}${v} 가중치를 적용했습니다.`);
+ }else if(action==='sb-next'){
+  state.year=Math.min(2300,state.year+4);state.turn=0;state.budget=100;state.campaignBoost={};state.regionBoost={};state.positions={};
+  state.historicId=null;recordSandbox('다음 총선',`${state.year}년 선거를 시작합니다. 기존 정당과 이념·지지 기반은 유지됩니다.`);
+ }else return;
+ invalidate();route('sandbox');toast('정치 샌드박스 설정이 반영됐습니다.');
+}
+render=function(){
+ if(page==='history'||page==='sandbox'){
+  dom('nav').innerHTML=NAV.map(([id,icon,label])=>`<button class="nav-link ${page===id?'active':''}" data-page="${id}" aria-current="${page===id?'page':'false'}"><span class="nav-symbol">${icon}</span>${label}</button>`).join('');
+  dom('top-section').textContent=page==='history'?'역대 선거':'정치 샌드박스';dom('view').innerHTML=page==='history'?renderHistory():renderSandbox();save();
+ }else{originalRender();dom('top-section').textContent=({world:'국가 선택',parties:'정당 편집',regions:'선거구 편집',settings:'게임 설정'})[page]||dom('top-section').textContent;}
+};
+document.addEventListener('click',event=>{
+ const historic=event.target.closest('[data-hist]');if(historic){event.preventDefault();event.stopImmediatePropagation();const h=historicById(historic.dataset.hist);if(h)confirmModal('역대 선거 불러오기',`${h.title}로 시나리오를 바꿉니다. 현재 수정 내용은 초기화되므로 필요하다면 먼저 JSON으로 저장하세요.`,()=>loadHistoric(h.id));return;}
+ const sbButton=event.target.closest('[data-action^="sb-"]');if(sbButton){event.preventDefault();event.stopImmediatePropagation();if(sbButton.dataset.action==='sb-next')confirmModal('4년 후로 이동',`현재 시나리오에서 ${state.year+4}년 총선으로 진행합니다. 정당은 유지하지만 캠페인은 초기화됩니다.`,()=>applySandboxAction('sb-next'));else applySandboxAction(sbButton.dataset.action);}
+},true);
+document.addEventListener('change',e=>{if(e.target.matches('[data-sb]')){const k=e.target.dataset.sb;sb[k]=e.target.value;}},true);
 render();
 
   </script>
